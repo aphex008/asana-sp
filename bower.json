@@ -1,0 +1,15 @@
+{
+  "name": "asana_story_point_counter",
+  "description": "Count storypoints in Asana when multiple tasks are selected",
+  "main": "",
+  "authors": [
+    "Darius Ratkevičius <darius@ratkevicius.lt>"
+  ],
+  "license": "",
+  "homepage": "",
+  "private": true,
+  "ignore": [],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

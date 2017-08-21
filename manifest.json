@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Asana story point counter",
+  "description": "",
+  "version": "1.0",
+  "browser_action": {
+    "default_title": "Asana story point counter"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://app.asana.com/*"
+      ],
+      "js": [
+        "vendor/jquery/dist/jquery.min.js",
+        "app/AsanaCounter.js"
+      ]
+    }
+  ]
+}
