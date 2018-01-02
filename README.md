@@ -1,6 +1,7 @@
 Installation
 ============
 
+- Clone
 - In project dir do ``bower install``
 - Go to chrome://extensions/
 - Check "Developer mode"
